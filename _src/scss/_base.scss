@@ -5,11 +5,16 @@ body {
 
 	// Remove Greeting. Welcome!
 	&:before {
-		content: "Welcome to Bootstrap Quickstart!";
+		content: "Welcome to Susy Quickstart!";
 		display: block;
 		font-size: rem(30);
 		margin-top: 25%;
 		text-align: center;
 		width: 100%;
 	}
+}
+
+//Test Susy Mixin
+.foo {
+  width: susy-span(3 at 3 of (1 2 3 5 8));
 }
